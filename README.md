@@ -4,7 +4,16 @@
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo 
+
+> [Download DiscordRPCManager.zip](https://github.com/emiryuksel/DiscordRPCManager/releases/download/v1.0.0/DiscordRPCManager-v1.0.0.zip)  
+Download and unzip, then double-click **DiscordRPCManager.exe** to run.  
+Make sure Discord is open. Enter your settings, then start.
+ings, then start.
+
+---
+
+## ✨ Features
 
 - 🎯 **Easy Presence Setup**  
   Define details, state, image keys, and a button label + URL with a user-friendly interface.
@@ -49,12 +58,6 @@
 - WPF (.NET)
 - [Lachee's Discord RPC Library](https://github.com/Lachee/discord-rpc-csharp)
 - C# 10+
-
----
-
-## 📥 Download
-
-> Download The Release.
 
 ---
 
