@@ -1,0 +1,84 @@
+﻿<Application x:Class="DiscordRPCManager.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Varsayılan tema olarak lightTheme.xaml yüklenebilir istersen -->
+                <!-- <ResourceDictionary Source="LightTheme.xaml"/> -->
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Rounded TextBox Style -->
+            <Style x:Key="RoundedTextBox" TargetType="TextBox">
+                <Setter Property="Margin" Value="0,4"/>
+                <Setter Property="Padding" Value="8"/>
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="Height" Value="32"/>
+                <Setter Property="Background" Value="#FAFAFA"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="BorderBrush" Value="#DDD"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="TextBox">
+                            <Border CornerRadius="6"
+                                    Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}">
+                                <ScrollViewer x:Name="PART_ContentHost"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Base Button Style -->
+            <Style x:Key="RoundedButton" TargetType="Button">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="Padding" Value="8,4"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Background" Value="#007AFF"/>
+                <Setter Property="BorderBrush" Value="Transparent"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}"
+                                    CornerRadius="8"
+                                    BorderThickness="0">
+                                <ContentPresenter HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#005FCC"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <!-- Primary Button Style (Örn. Save) -->
+            <Style x:Key="RoundedButtonPrimary" TargetType="Button" BasedOn="{StaticResource RoundedButton}">
+                <Setter Property="FontWeight" Value="SemiBold"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Height" Value="36"/>
+            </Style>
+
+            <!-- Highlighted Button Style (Örn. Start Presence) -->
+            <Style x:Key="HighlightButton" TargetType="Button" BasedOn="{StaticResource RoundedButton}">
+                <Setter Property="Background" Value="#28C76F"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Height" Value="44"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#20B05E"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
