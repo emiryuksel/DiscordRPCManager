@@ -4,12 +4,12 @@
 
 ---
 
-## 🚀 Live Demo 
+## 🚀 How To Install
 
 > [Download DiscordRPCManager.zip](https://github.com/emiryuksel/DiscordRPCManager/releases/download/v1.0.0/DiscordRPCManager-v1.0.0.zip)  
-Download and unzip, then double-click **DiscordRPCManager.exe** to run.  
-Make sure Discord is open. Enter your settings, then start.
-ings, then start.
+
+- Download and unzip, then double-click **DiscordRPCManager.exe** to run.  
+- Make sure Discord is open. Enter your settings, then start.
 
 ---
 
