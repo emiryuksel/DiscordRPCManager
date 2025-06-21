@@ -13,25 +13,6 @@
 
 ---
 
-## ✨ Features
-
-- 🎯 **Easy Presence Setup**  
-  Define details, state, image keys, and a button label + URL with a user-friendly interface.
-
-- 🖼️ **Image Support**  
-  Set **large/small image keys** and tooltips directly from your Discord Developer Portal assets.
-
-- 🧠 **Smart Save & Restore**  
-  Automatically remembers your last activity (saved as JSON locally).
-
-- 📦 **Tray Mode**  
-  Runs silently in the background – just minimize to tray!
-
-- 🌓 **Lightweight UI**  
-  Clean, responsive interface with consistent styling.
-
----
-
 ## ⚙️ How to Use
 
 1. **Enter your Discord Application ID**
@@ -50,6 +31,25 @@
 
 - Configurations are saved locally in `activity.json`
 - Automatically loaded on startup
+
+---
+
+## ✨ Features
+
+- 🎯 **Easy Presence Setup**  
+  Define details, state, image keys, and a button label + URL with a user-friendly interface.
+
+- 🖼️ **Image Support**  
+  Set **large/small image keys** and tooltips directly from your Discord Developer Portal assets.
+
+- 🧠 **Smart Save & Restore**  
+  Automatically remembers your last activity (saved as JSON locally).
+
+- 📦 **Tray Mode**  
+  Runs silently in the background – just minimize to tray!
+
+- 🌓 **Lightweight UI**  
+  Clean, responsive interface with consistent styling.
 
 ---
 
