@@ -4,6 +4,15 @@
 
 ---
 
+## ▶️ Tutorial Video
+
+<div style="max-width:800px; margin:auto;">
+  <!-- YouTube’dan aldığın embed kodunu aşağıya yapıştır -->
+<iframe width="1385" height="779" src="https://www.youtube.com/embed/PuhfLDkrqNI" title="Custom Discord Rich Presence Tutorial: via Discord RPC Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+---
+
 ## 🚀 How To Install
 
 > [Download DiscordRPCManager.zip](https://github.com/emiryuksel/DiscordRPCManager/releases/download/v1.0.0/DiscordRPCManager-v1.0.0.zip)  
