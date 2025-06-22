@@ -6,9 +6,15 @@
 
 ## ▶️ Tutorial Video
 
-<div style="max-width:800px; margin:auto;">
-  <!-- YouTube’dan aldığın embed kodunu aşağıya yapıştır -->
-<iframe width="1385" height="779" src="https://www.youtube.com/embed/PuhfLDkrqNI" title="Custom Discord Rich Presence Tutorial: via Discord RPC Manager" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; /* 16:9 aspect */ margin-bottom: 1.5em;">
+  <iframe
+    src="https://www.youtube.com/embed/PuhfLDkrqNI"
+    title="Custom Discord Rich Presence Tutorial: via Discord RPC Manager"
+    frameborder="0"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
 </div>
 
 ---
